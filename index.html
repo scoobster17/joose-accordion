@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Joose Accordion Component</title>
     <link rel="stylesheet" type="text/css" href="/node_modules/normalize.css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/joose-accordion.css" />
     <style type="text/css">
         .container {
             border:1px solid #000;
@@ -25,7 +26,8 @@
     <div class="container">
         <h1>Joose Accordion Component</h1>
         <p>There are to types of accordion that can be created; the only difference is whether you can open one or multiple sections at once.</p>
-        <p>Please be aware this page is not yet functional due to wanting to set up node modules of a larger project, but can be used for reference of the accordion HTML to be used with the CSS and JS assets. To get this to work, you will also need assets from this <a href="http://github.com/scoobster17/joose">Joose Component Library</a> which contain utilities such as class manipulation. There are currently dependencies that rely on this, that are not fulfilled in this demo page.</p>
+        <p>Please be aware this page will not yet function unless you download two small other assets. This is due to the fact I am wanting to set up node modules of a larger project. This page can be used for reference of the accordion HTML to be used with the CSS and JS assets in this repository.</p>
+        <p>To get this page to work, you will also need assets from this <a href="http://github.com/scoobster17/joose">Joose Component Library</a> which contain utilities such as class manipulation. There are currently dependencies that rely on this, that are not fulfilled in this demo page (they are on the page but are broken links; setup.js and utils.js).</p>
         <p>No styling has been applied other than simple show/hide. You can utilise the existing HTML as I have, or you can add your own classes / selectors of your choice.</p>
         <ul>
             <li>
@@ -42,7 +44,7 @@
             </li>
         </ul>
         <p>The initialisation function will pick out any instances of accordions by searching for the data attribute automatically.</p>
-        <h2>Example HTML</h2>
+        <h2>Example HTML (multi-view)</h2>
         <section id="multiViewAccordion" data-component="accordion" data-multiView="true">
             <a href="#lorem1" id="lorem1Trigger" aria-controls="lorem1">Lorem 1</a>
             <section id="lorem1" aria-labelledby="lorem1Trigger">
@@ -58,5 +60,8 @@
             </section>
         </section>
     </div>
+    <script type="text/javascript" src="/js/setup.js"></script>
+    <script type="text/javascript" src="/js/utils.js"></script>
+    <script type="text/javascript" src="js/joose-accordion.js"></script>
 </body>
 </html>
