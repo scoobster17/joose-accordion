@@ -1,0 +1,24 @@
+{
+  "name": "joose-accordion",
+  "version": "1.0.0",
+  "description": "a lightweight accordion component with little to no default styling, part of the joose component library, but can be used independently",
+  "main": "js/joose-accordion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scoobster17/joose-accordion.git"
+  },
+  "keywords": [
+    "accordion",
+    "joose",
+    "joose-accordion"
+  ],
+  "author": "Philip Gibbins <scoobster17@hotmail.co.uk> (www.philgibbins.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scoobster17/joose-accordion/issues"
+  },
+  "homepage": "https://github.com/scoobster17/joose-accordion"
+}
