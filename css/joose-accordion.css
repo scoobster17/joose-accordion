@@ -1,0 +1,7 @@
+[data-component="accordion"] [aria-labelledby] {
+  height: 0;
+  overflow: hidden; }
+[data-component="accordion"] .open + [aria-labelledby] {
+  height: auto; }
+
+/*# sourceMappingURL=joose-accordion.css.map */

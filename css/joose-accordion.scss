@@ -1,0 +1,9 @@
+[data-component="accordion"] {
+    [aria-labelledby] {
+        height:0;
+        overflow:hidden;
+    }
+    .open + [aria-labelledby] {
+        height:auto;
+    }
+}
