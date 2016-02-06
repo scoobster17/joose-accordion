@@ -8,8 +8,8 @@ Please see [joose](https://github.com/scoobster17/joose) for the whole library /
 
 To install using [bower](http://bower.io/search/?q=joose-accordion)
 
-'bower install joose-accordion'
+`bower install joose-accordion`
 
 To install using [npm](https://www.npmjs.com/package/joose-accordion)
 
-'npm install joose-accordion'
+`npm install joose-accordion`
