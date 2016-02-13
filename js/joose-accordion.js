@@ -6,6 +6,7 @@ Depends on Joose.utils
 */
 
 ;var joose = window.joose || {};
+joose.classes = joose.classes || {};
 joose.accordion = (function(js) {
     
     "use strict";
