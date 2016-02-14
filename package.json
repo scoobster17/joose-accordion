@@ -1,6 +1,6 @@
 {
   "name": "joose-accordion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a lightweight accordion component with little to no default styling, part of the joose component library, but can be used independently",
   "main": "js/joose-accordion.js",
   "scripts": {
