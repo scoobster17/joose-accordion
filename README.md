@@ -24,6 +24,7 @@ There are two types of accordion that can be created; the only difference is whe
     `var componentAccordion = new joose.classes.Accordion('componentContainer', false);`  
     or  
     `&lt;section id="accordionContainer" data-component="accordion" data-multiView="false"&gt;`
+    
   - Multi-view accordion (can view more than one portion at a time)  
     `var componentAccordion = new joose.classes.Accordion('componentContainer', true);`  
     or  
