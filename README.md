@@ -23,11 +23,11 @@ There are two types of accordion that can be created; the only difference is whe
   - Single view accordion (collapses other content)  
     `var componentAccordion = new joose.classes.Accordion('componentContainer', false);`  
     or  
-    `&lt;section id="accordionContainer" data-component="accordion" data-multiView="false"&gt;`
-    
+    `<section id="accordionContainer" data-component="accordion" data-multiView="false">`
+
   - Multi-view accordion (can view more than one portion at a time)  
     `var componentAccordion = new joose.classes.Accordion('componentContainer', true);`  
     or  
-    `&lt;section id="accordionContainer" data-component="accordion" data-multiView="true"&gt;`
+    `<section id="accordionContainer" data-component="accordion" data-multiView="true">`
 
 On page load the script searches the page for the `data-component` attribute to pick up any components that haven't been manually initialised using the `new` keyword as demonstrated above.
