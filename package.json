@@ -1,6 +1,6 @@
 {
   "name": "joose-accordion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a lightweight accordion component with little to no default styling, part of the joose component library, but can be used independently",
   "main": "js/joose-accordion.js",
   "scripts": {
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/scoobster17/joose-accordion/issues"
   },
-  "homepage": "https://github.com/scoobster17/joose-accordion"
+  "homepage": "https://github.com/scoobster17/joose-accordion",
+  "dependencies": {
+    "joose-utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "joose-utils": "^1.0.0"
+  }
 }

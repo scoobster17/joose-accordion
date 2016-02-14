@@ -4,7 +4,7 @@ A lightweight, unstyled accordion component. This component belongs to the Joose
 
 Please see [joose](https://github.com/scoobster17/joose) for the whole component library.
 
-The package includes basic a basic CSS file (along with source Sass files) to handle the showing and hiding of content as an example. No styling has been applied other than simple show/hide. You can utilise the existing HTML as per the example, or you can add your own classes / selectors of your choice and customise as you wish, for example to add animations.
+The package includes basic a basic CSS file (along with source Sass files) to handle the showing and hiding of content as an example. No styling has been applied other than simple show/hide. You can utilise the existing HTML/CSS as per the example, or you can add your own classes / selectors of your choice and customise as you wish, for example to add animations.
 
 ## Installation
 
